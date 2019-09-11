@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>AirBnB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/75bed6266a.js"></script>
+</head>
+<body>
+         <section class="hero">
+            <div class="hero-inner">
+                <h1>Réservez un sejour. Accueillez des voyageurs. Directement sur AirBnB.</h1>
+            </div>
+            <div class="hero2-3">
+            <div class="hero2">
+                <h2>Trouvez des logments et activites</h2>
+                <a href="#" class="btn">Explore</a>
+            </div>
+            <div class="hero3">
+                <h2>Réservez un sejour</h2>
+                <a href="#" class="btn">Accueilir</a>
+            </div>
+            </div>
+        </section>
+    <section class="alles">
+    <h2>Reservez des logements et des epériences uniques</h2>
+    <section class="search">
+        <div class="Ou">
+            <form autocomplete="off">
+                <label for="ou">Où?</label></br>
+                    <input id = "where" type="text" list="places" placeholder="Partout">
+                    <datalist id="places">
+                        <option value="London"></option>
+                        <option value="Paris"></option>
+                        <option value="Bruxelles"></option>
+                        <option value="Allemagne"></option>
+                        <option value="Rome"></option>
+                        <option value="Berlin"></option>
+                        <option value="Amsterdame"></option>
+                        <option value="Grèce"></option>
+                        <option value="Dublin"></option>
+                </datalist>
+            </form>
+        </div>
+        <div class="depart">
+            <form autocomplete="off">       
+                <div class='picker'>
+                    <label for="fromperiod">Arrivé dt Depart</label></br>
+                    <input input type="date" id="start" name="trip-start"
+                    value="jj/mm/yyyy"
+                    min="date" max="31-12-2020">
+                    <label for="toperiod">-</label>
+                    <input input type="date" id="end" name="trip-end">
+                    </div>
+            </form>
+        </div>
+        <div class="voyageurs">
+            <form autocomplete="off">
+                <label for="voyageurs">Voyageurs</label></br>
+                <input id="text" type="text" list="voyageurs" placeholder="1 voyageur"> 
+                <datalist id="voyageurs">
+                    <option value="1 voyageur"></option>
+                    <option value="2 voyageurs"></option>
+                    <option value="3 voyageurs"></option>
+                    <option value="4 voyageurs"></option>
+                    <option value="5 voyageurs"></option>
+                    <option value="6 voyageurs"></option>
+                    <option value="7 voyageurs"></option>
+                    <option value="8 voyageurs"></option>
+                    <option value="Trop de voyageurs!"></option>  
+                </datalist>           
+            </form>
+        </div>
+    </section>
+        <div class="click">
+            <a href="#" class="btn">Rechercher</a>
+        </div>
+    <section class="mega">
+        <h2> Belgique: ce que les autres voyageurs ont pensé de leur logement</h2>
+        <h3><i class="fas fa-haykal"></i>   Les logments que tout le monde en veut!</h3>
+            <div class="photo1">
+            <article class="hans">
+                <div class="Item1">
+                    <img src="Photo/chambre6.jpg">
+                </div>
+                <div class="stern">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <div class="Item2">
+                <p>Aliquam ipsum lacus, efficitur sed aliquam in, iaculis et felis. Curabitur quis elit sed elit sodales suscipit. Etiam non sem ligula. Sed hendrerit turpis sit amet felis tincidunt elementum. Suspendisse potenti. Duis venenatis massa leo, eu convallis urna tempor ut. Proin quis nisl quis erat sodales sagittis vel vel ligula. Nunc a finibus libero, id fermentum turpis. Curabitur et vulputate est. Praesent justo metus, efficitur in accumsan non, condimentum eu metus.</p>
+                </div>
+                <div class="Item3">
+                    <div class="circle">
+                    <img img class="circular--square" src="Photo/chambre6.jpg">
+                    </div>
+                    <div class="frau">
+                    Hans</br> Berlin
+                    </div>
+                </div>
+            </article> 
+            <article class="Hugo"> 
+                <div class="Item11">
+                    <img src="Photo/chambre7.jpg">
+                </div>
+                <div class="stern">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                    <article class="Item21">
+                    <p>Aliquam ipsum lacus, efficitur sed aliquam in, iaculis et felis. Curabitur quis elit sed elit sodales suscipit. Etiam non sem ligula. Sed hendrerit turpis sit amet felis tincidunt elementum. Suspendisse potenti. Duis venenatis massa leo, eu convallis urna tempor ut. Proin quis nisl quis erat sodales sagittis vel vel ligula. Nunc a finibus libero, id fermentum turpis. Curabitur et vulputate est. Praesent justo metus, efficitur in accumsan non, condimentum eu metus.</p>
+                </article>
+                <div class="Item31">
+                    <div class="circle">
+                        <img img class="circular--square" src="Photo/chambre7.jpg">
+                    </div>
+                    <div class="frau">
+                        Hugo</br> Allemagne
+                    </div>
+                </div>
+            </article>
+            <article class="Anne">
+                <div class="Item12">
+                    <img src="Photo/chambre4.jpg">
+                </div>
+                <div class="stern">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <article class="Item22">
+                    <p>Aliquam ipsum lacus, efficitur sed aliquam in, iaculis et felis. Curabitur quis elit sed elit sodales suscipit. Etiam non sem ligula. Sed hendrerit turpis sit amet felis tincidunt elementum. Suspendisse potenti. Duis venenatis massa leo, eu convallis urna tempor ut. Proin quis nisl quis erat sodales sagittis vel vel ligula. Nunc a finibus libero, id fermentum turpis. Curabitur et vulputate est. Praesent justo metus, efficitur in accumsan non, condimentum eu metus.</p>
+                </article>
+                <div class="Item32">
+                    <div class="circle">
+                     <img img class="circular--square" src="Photo/chambre4.jpg">
+                    </div>
+                    <div class="frau">
+                        Anne</br> France
+                    </div>
+                </div>
+            </article>
+        </section>    
+        <hr>
+        <h2>Voyager avec AirBnB</h2>
+        <section class="information">
+            <article class="assitance">
+                <div class="symbol">
+                <i class="far fa-heart"></i>
+                </div>
+                <div class="symbon">
+                Donec ac eros arcu. Suspendisse ac mattis eros. In ac ultrices est. Pellentesque tincidunt nibh a est porta egestas. Phasellus condimentum pulvinar enim, id sodales arcu. Aenean magna mauris, feugiat vitae fermentum eget, gravida in lacus. Curabitur condimentum eget.
+                </div>
+            </article>
+            <article class="charte">
+                <div class="symbol">
+                <i class="fas fa-home"></i>
+                </div>
+                <div class="symbon">
+                Donec ac eros arcu. Suspendisse ac mattis eros. In ac ultrices est. Pellentesque tincidunt nibh a est porta egestas. Phasellus condimentum pulvinar enim, id sodales arcu. Aenean magna mauris, feugiat vitae fermentum eget, gravida in lacus. Curabitur condimentum eget.
+                </div>
+            </article>
+            <article class="hotes">
+                <div class="symbol">
+                <i class="fas fa-user-lock"></i>
+                </div>
+                <div class="symbon">
+                Donec ac eros arcu. Suspendisse ac mattis eros. In ac ultrices est. Pellentesque tincidunt nibh a est porta egestas. Phasellus condimentum pulvinar enim, id sodales arcu. Aenean magna mauris, feugiat vitae fermentum eget, gravida in lacus. Curabitur condimentum eget.
+                </div>
+            </article>
+        </section>
+        <hr>
+        <h2>Réservez à l'instant en Belgique</h2>
+        <section class="Photo2">
+            <article class="erst">
+                <div class="eins">
+                <img src="Photo/chambre1.jpg">
+                </div>
+                <h6>Villa - Rome</h6>
+                <h4>Visit London!</h4>
+                <p>62€/nuit</p>
+                <div class="text">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><span class="ABC">480 Superhost</span>           
+                </div>
+            </article>
+            <article class="zweit">
+                <div class="zwei">
+                <img src="Photo/chambre2.jpg">
+                </div>
+                <h6>Chambre privée - Grèce</h6>
+                <h4>Chambre privée - Allemagne</h4>
+                <p>78€/nuit</p>
+                <div class="text">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="ABC">500+ Superhost</span>
+                </div>
+            </article>
+            <article class="drittes">
+                <div class="drei">
+                <img src="Photo/chambre3.jpg">
+                </div>
+                <h6>Appartement - Dublin</h6>
+                <h4>Appartement - Berlin</h4>
+                <p>112€/nuit</p>
+                <div class="text">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </article>
+            <article class="viertes">
+                <div class="vier">
+                <img src="Photo/chambre5.jpg">
+                </div>
+                <h6>Maison - London</h6>
+                <h4>charmant maison - centre ville</h4>
+                <p>155€/nuit</p>
+                <div class="text">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </article>
+        </section>
+            <div class="others">
+            <a href="#" class="btn">Afficher les (500+)></a>
+            </div>
+        <hr>
+        <section class="head2">
+        <h2>Quand voyagez vous?</h2>
+        Verifiez la diponibilité et le prix en ajoutant des dates.
+        </section>
+        <section class="click2">
+        <a href="#" class="btn">Ajouter des Dates</a>
+        </section>>
+    </section>
+    <hr>
+    <footer>
+        <article class="air">
+            <h4>AirBnB</h4>
+            <p>Carrieres<br>
+                Actualités</br>
+                Règles</br>
+                Aide</br>
+                Divérsité et Itergration</br>
+                Coordonées de </br>
+                l'entreprise</p>
+        </article>
+        <article class="decouvre">
+            <h4>Decouvrir</h4>
+            <p>Confience et sécurité</br>
+                Travel credit</br>
+                AirBnB citizen</br>
+                Voyage d'affaire</br>
+                Guides</br>
+                AirBnBmag</p>
+        </article>
+        <article class="Herberge">
+            <h4>Hébergement</h4>
+            <p>Pourquoi être hote</br>
+                Hospitalité</br>
+                Hébergement responsables</br>
+                Comunity center </br>
+                Organiser une </br>
+                experience (new)</br>
+                Open Homes</p>
+        </article>
+        <section class="socialall">
+        <article class="social">
+            <div class="FB">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="twitt">
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="insta">
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+        </br>
+        </article>
+            <article class="textt">
+                Conditions</br>
+                Politiques de confidentialité</br>
+                Plan du site</br>
+            </article>
+        </section>
+    </footer>
+    <hr>
+    <div class="poo">
+    <p><i class="fab fa-airbnb"></i> rights reserved </p>
+    </div>
+</section>
+</body>
+</html>
